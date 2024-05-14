@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ant {
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .Pbutton:hover{
+    background-color: white;
+    color:black;
+  }
+  .card:hover{
+    transform: scale(0.95);
+    transition: 0.5s ease-in-out;
+    
+  }
+  .cardc:hover{
+    
+    transform: scale(1.10);
+    transition: 0.5s ease-in-out;
+    
+  }
